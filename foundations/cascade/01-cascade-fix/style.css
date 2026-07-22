@@ -3,19 +3,18 @@ body {
 }
 
 .para {
-  font-size: 22px;
-}
-
-.para,
-.small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
+}
+
+.para {
+  font-size: 22px;
 }
 
 .small-para {
   font-size: 14px;
   font-weight: 800;
-}
+} 
 
 .button {
   background-color: rgb(255, 255, 255);
@@ -27,16 +26,16 @@ body {
   background: green;
   color: white;
   font-weight: bold;
-} 
-
-.text .child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
 }
 
-div.text {
+.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
+}
+
+.child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
 }
